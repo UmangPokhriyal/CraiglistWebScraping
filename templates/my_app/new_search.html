@@ -1,12 +1,8 @@
 {% extends 'base.html' %}
 
-{% load static %}
-
 {% block content %}
 
 <h1 style="text-align:center;">{{search| title}}</h1>
-
-
 
 <div class="row">
 {% for title,url,price,image in final_postings %}
